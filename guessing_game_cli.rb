@@ -7,7 +7,8 @@ def run_guessing_game
   if random_number == input
     return "You guessed the correct number!"
   else if random_number != input
-    return "Sorry! The computer guessed #{}"
+    return "Sorry! The computer guessed #{random_number}"
+    
   end
   
 end
